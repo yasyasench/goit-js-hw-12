@@ -65,7 +65,7 @@
 }
 
 .is-hidden {
-  display: none;
+  display: none !important;
 }
 
 
@@ -165,6 +165,7 @@ input:focus {
 .load-more-btn{
   display: block;
   margin: 0 auto;
+  border-color: none;
 }
 
 ul {
